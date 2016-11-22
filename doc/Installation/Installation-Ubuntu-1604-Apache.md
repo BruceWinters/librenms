@@ -27,8 +27,8 @@ exit
 Within the [mysqld] section please add:
 
 ```bash
-innodb_file_per_table=1
-sql-mode=""
+innodb_file_per_table = 1
+sql-mode = ""
 ```
 
 ```service mysql restart```
